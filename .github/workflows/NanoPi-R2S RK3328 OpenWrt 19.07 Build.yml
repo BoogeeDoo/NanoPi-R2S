@@ -77,6 +77,7 @@ jobs:
           rm -rf nanopi-r2s/
           
           git clone https://github.com/kuoruan/openwrt-kcptun.git kcptun
+          git clone https://github.com/kuoruan/luci-app-kcptun.git luci-app-kcptun
           
           git clone https://github.com/sensec/luci-app-udp2raw.git
           git clone https://github.com/sensec/openwrt-udp2raw.git
