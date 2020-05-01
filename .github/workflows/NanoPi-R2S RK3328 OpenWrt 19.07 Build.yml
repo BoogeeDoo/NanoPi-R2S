@@ -76,6 +76,9 @@ jobs:
           mv nanopi-r2s/luci-app-r2sflasher/ .
           rm -rf nanopi-r2s/
           
+          git clone https://github.com/sensec/luci-app-udp2raw.git
+          git clone https://github.com/sensec/openwrt-udp2raw.git
+          
       - name: Install Clash Binaries
         run: |
           cd friendlywrt-rk3328/friendlywrt/package/base-files/files
